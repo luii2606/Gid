@@ -1,0 +1,16 @@
+@import url(style.css);
+
+.grid-nombre-lineas{
+  display: grid;
+  grid-template-columns: repeat(3,1fr) ;
+  grid-template-rows: repeat(3,1fr);
+
+  grid-template-columns: [linea-c1] 1fr [linea-c1] 1fr [linea-c3] 1fr [linea-c1];
+  grid-template-rows: [linea-r1] 1fr [linea-r2] 1fr [linea-r3] 1fr [linea-r4] 1fr;
+}
+.item:nth-child(4){
+  background-color: brown;
+  color: #fff;
+  grid-column: linea-c1 / linea-c3;
+  grid-row: linea-r2 /linea-r4;
+}

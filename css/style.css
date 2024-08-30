@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contenedor{
+  margin: 0 auto;
+  width: 80%;
+  height: 80vh;
+  background-color: black;
+  border: solid 1px #666;
+}
+.item{
+  padding: 1rem;
+  font-size: 1.25rem;
+  background-color: #666;
+  border:solid 1px #222;
+}
