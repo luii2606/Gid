@@ -1,0 +1,42 @@
+ /* @import url(/css/style.css);  */
+body{
+  height: 100vh;
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.grid-areasdos{
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 100px 1fr ;
+  grid-template-areas:
+  'header header header header header header'
+  '. sidebar-left content content sidebar-right .';
+  height: 100vh;
+  /* width: 200vh; */
+
+  
+  
+}
+.header{
+  grid-area: header;
+  background-color: brown;
+}
+.sidebar-left{
+  grid-area: sidebar-left;
+  background-color: steelblue;
+  
+}
+.sidebar-right{
+  grid-area: sidebar-right;
+  background-color:aqua;
+  
+}
+.content{
+  grid-area: content;
+  background-color: bisque;
+}
+
+
