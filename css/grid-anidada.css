@@ -1,0 +1,15 @@
+@import url(style.css);
+
+.grid-anidada{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr)
+}
+.grid-sub-grid{
+  display: grid;
+  grid-column: span 3;
+  /* grid-auto-flow: ; */
+  grid-row: 2 /5;
+  grid-template-columns: subgrid;
+  grid-template-rows: subgrid;
+}

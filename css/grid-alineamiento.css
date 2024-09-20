@@ -1,0 +1,23 @@
+@import url(style.css);
+
+.grid-alineamiento{
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 200px);
+  justify-items: stretch; /*alinear eje x (por defecto) */
+  justify-items: end;
+  justify-content: start; /*alinear eje x */
+  justify-items: center; 
+
+  align-items: stretch; /*alinear eje y (por defecto) */
+  align-items: start;  /*alinear eje y */
+  align-items: end;
+  align-items: center;
+}
+.item:nth-child(5){
+  background-color: brown;
+  color: aliceblue;
+  align-items: flex-end;  /*Falta */
+  justify-self: end;
+  
+}

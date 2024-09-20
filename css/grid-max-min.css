@@ -1,0 +1,14 @@
+@import url(style.css);
+
+/* .grid-max-min{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px 200px)); /*tamaño minimo el primero (100px)*/
+                                                           /*tamaño maximo el segundo (200px)*/
+
+.grid-max-min{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px , 300px));
+  grid-template-columns: repeat(4, minmax(min-content , 300px));
+  grid-template-columns: repeat(4, minmax(max-content , 300px));
+  
+}
